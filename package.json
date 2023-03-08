@@ -1,0 +1,25 @@
+{
+  "name": "dgame-indexer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .ts src",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mktcodelib/web3indexer": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}
